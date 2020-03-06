@@ -1,5 +1,5 @@
 # Mniam.pl
-Projest tworzony przez:
+Projekt tworzony przez:
 Klaudia Kamila Kacprzak
 Bartosz Kaczorowski
 Michał Górski
