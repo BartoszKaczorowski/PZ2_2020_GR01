@@ -4,9 +4,8 @@ Bartosz Kaczorowski - lider </br>
 Klaudia Kamila Kacprzak </br>
 Michał Górski </br>
 
+- <b>CELE BIZNESOWE</b> </br> (opis, co ma robić, bardzo ogólnie jak obsługiwać, co daje aplikacja, dla kogo jest aplikacja, do czego się przydaje), czy jest popularne takie rozwiązanie i czy jest potrzebne </br>
 - <b>HISTORIA ZMIAN</b> </br> tabelka ze zmianami, datami i kto odpowiedzialny, opis zadania </br>
-- <b>CELE BIZNESOWE</b> </br> (opis, co ma robić, bardzo ogólnie jak obsługiwać, co daje aplikacja, dla kogo jest aplikacja, do czego się przydaje), 
-  czy jest popularne takie rozwiązanie i czy jest potrzebne </br>
 - <b>SŁOWNIK POJĘĆ</b> </br> co jest czym </br>
 - <b>WYMAGANIA FUNKCJONALNE </b> </br> co robi aplikacja, ogólnie po kolei, wypunktowanie </br>
 - <b>DIAGRAMY</b> </br> diagramy przypadków użycia, tabele przypadków użycia, 
