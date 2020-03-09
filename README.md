@@ -5,11 +5,11 @@ Bartosz Kaczorowski
 Michał Górski
 
 
-HISTORIA ZMIAN tabelka ze zmianami, datami i kto odpowiedzialny
+HISTORIA ZMIAN tabelka ze zmianami, datami i kto odpowiedzialny,
 opis zadania </br>
-cele biznesowe (opis, co ma robić, bardzo ogólnie jak obsługiwać, co daje aplikacja, dla kogo, dlaczego, do czego zdatna)
-  czy jest popularne, czy jest potrzebne
-słownik pojęć, co jest czym
+- cele biznesowe (opis, co ma robić, bardzo ogólnie jak obsługiwać, co daje aplikacja, dla kogo, dlaczego, do czego zdatna)
+  czy jest popularne, czy jest potrzebne </br>
+- słownik pojęć, co jest czym </br>
 WYMAGANIA FUNKCJONALNE, co robi, ogólnie po kolei, wypunktowanie
 ZA TYDZIEŃ CELE BIZNESOWE OPISY
 ZA DWA ROZBUDOWANIE, WYMAGANIA FUNKCJONALNE (tabela| akcja czynność i reakcja systemu), 
