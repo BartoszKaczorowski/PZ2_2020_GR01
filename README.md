@@ -9,7 +9,7 @@ Michał Górski </br>
   czy jest popularne takie rozwiązanie i czy jest potrzebne </br>
 - słownik pojęć, co jest czym </br>
 - WYMAGANIA FUNKCJONALNE, co robi aplikacja, ogólnie po kolei, wypunktowanie </br>
-ZA TYDZIEŃ CELE BIZNESOWE OPISY
+ZA TYDZIEŃ CELE BIZNESOWE OPISY </br>
 ZA DWA TYGODNIE ROZBUDOWANIE! - WYMAGANIA FUNKCJONALNE (tabela| akcja, czynność i reakcja systemu), 
 - diagramy przypadków użycia, tabele przypadków użycia, 
   tytuł funkcjonalnosci, przez kogo (aktor), opis </br>
