@@ -16,5 +16,5 @@ wymagania niefunkcjonalne(sprawdzić na necie), wydajność </br>
 - <b>TERMINARZ</b> </br> co kiedy, kiedy przedstawić, do dnia np. na tygodniowe daty </br>
 - <b>ANALIZA RYZYKA</b> </br> czynniki wewnętrzne i zewnętrzne, pomocne i szkodliwe </br>
 
-<b>ZA TYDZIEŃ - CELE BIZNESOWE OPISY</b> </br>
+<b><font color="red">ZA TYDZIEŃ - CELE BIZNESOWE OPISY</font></b> </br>
 <b>ZA DWA TYGODNIE ROZBUDOWANIE! - WYMAGANIA FUNKCJONALNE</b> (tabela | akcja, czynność i reakcja systemu)
