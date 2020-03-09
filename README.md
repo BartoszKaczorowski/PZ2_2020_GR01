@@ -1,8 +1,8 @@
 # Mniam.pl
 Projekt tworzony przez:
-Klaudia Kamila Kacprzak
-<b>Bartosz Kaczorowski</b>
-Michał Górski
+<b>Bartosz Kaczorowski</b> </br>
+Klaudia Kamila Kacprzak </br>
+Michał Górski </br>
 
 - HISTORIA ZMIAN tabelka ze zmianami, datami i kto odpowiedzialny, opis zadania </br>
 - cele biznesowe (opis, co ma robić, bardzo ogólnie jak obsługiwać, co daje aplikacja, dla kogo, dlaczego, do czego zdatna)
