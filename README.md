@@ -1,5 +1,5 @@
 # Mniam.pl
-<style color="red">Projekt tworzony przez:</style> </br>
+Projekt tworzony przez: </br>
 <b>Bartosz Kaczorowski</b> </br>
 Klaudia Kamila Kacprzak </br>
 Michał Górski </br>
