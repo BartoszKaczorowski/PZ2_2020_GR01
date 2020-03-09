@@ -21,3 +21,6 @@ wymagania niefunkcjonalne(sprawdzić na necie), wydajność </br>
 ``CSS
 - <b><font color="red">ZA TYDZIEŃ - CELE BIZNESOWE OPISY</font></b> </br>
 ``
+<div class="text-blue mb-2">
+  .text-blue on white
+</div>
