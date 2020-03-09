@@ -1,16 +1,16 @@
 # Mniam.pl
 Projekt tworzony przez: </br>
-<b>Bartosz Kaczorowski</b> </br>
+<b>Bartosz Kaczorowski</b> - lider </br>
 Klaudia Kamila Kacprzak </br>
 Michał Górski </br>
 
-- HISTORIA ZMIAN tabelka ze zmianami, datami i kto odpowiedzialny, opis zadania </br>
-- cele biznesowe (opis, co ma robić, bardzo ogólnie jak obsługiwać, co daje aplikacja, dla kogo, dlaczego, do czego zdatna)
-  czy jest popularne, czy jest potrzebne </br>
+- HISTORIA ZMIAN: tabelka ze zmianami, datami i kto odpowiedzialny, opis zadania </br>
+- CELE BIZNESOWE (opis, co ma robić, bardzo ogólnie jak obsługiwać, co daje aplikacja, dla kogo jest aplikacja, do czego się przydaje), 
+  czy jest popularne takie rozwiązanie i czy jest potrzebne </br>
 - słownik pojęć, co jest czym </br>
-- WYMAGANIA FUNKCJONALNE, co robi, ogólnie po kolei, wypunktowanie </br>
+- WYMAGANIA FUNKCJONALNE, co robi aplikacja, ogólnie po kolei, wypunktowanie </br>
 ZA TYDZIEŃ CELE BIZNESOWE OPISY
-ZA DWA ROZBUDOWANIE, WYMAGANIA FUNKCJONALNE (tabela| akcja czynność i reakcja systemu), 
+ZA DWA TYGODNIE ROZBUDOWANIE! - WYMAGANIA FUNKCJONALNE (tabela| akcja, czynność i reakcja systemu), 
 - diagramy przypadków użycia, tabele przypadków użycia, 
   tytuł funkcjonalnosci, przez kogo (aktor), opis </br>
 - wybór metodyki (waterfall, scrum itp.) i technologie
