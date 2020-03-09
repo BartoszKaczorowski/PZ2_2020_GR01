@@ -1,7 +1,7 @@
 # Mniam.pl
 Projekt tworzony przez:
 Klaudia Kamila Kacprzak
-Bartosz Kaczorowski
+<b>Bartosz Kaczorowski</b>
 Michał Górski
 
 - HISTORIA ZMIAN tabelka ze zmianami, datami i kto odpowiedzialny, opis zadania </br>
