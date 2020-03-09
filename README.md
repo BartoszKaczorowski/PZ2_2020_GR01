@@ -1,5 +1,5 @@
 # Mniam.pl
-Projekt tworzony przez:
+Projekt tworzony przez: </br>
 <b>Bartosz Kaczorowski</b> </br>
 Klaudia Kamila Kacprzak </br>
 Michał Górski </br>
