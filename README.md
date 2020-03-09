@@ -18,6 +18,6 @@ wymagania niefunkcjonalne(sprawdzić na necie), wydajność </br>
 
 
 <b>ZA DWA TYGODNIE ROZBUDOWANIE! - WYMAGANIA FUNKCJONALNE</b> (tabela | akcja, czynność i reakcja systemu)
-```diff
+``CSS
 - <b><font color="red">ZA TYDZIEŃ - CELE BIZNESOWE OPISY</font></b> </br>
-```
+``
