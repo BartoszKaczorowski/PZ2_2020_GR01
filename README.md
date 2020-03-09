@@ -10,8 +10,8 @@ opis zadania </br>
 - cele biznesowe (opis, co ma robić, bardzo ogólnie jak obsługiwać, co daje aplikacja, dla kogo, dlaczego, do czego zdatna)
   czy jest popularne, czy jest potrzebne </br>
 - słownik pojęć, co jest czym </br>
-WYMAGANIA FUNKCJONALNE, co robi, ogólnie po kolei, wypunktowanie
-ZA TYDZIEŃ CELE BIZNESOWE OPISY
+- WYMAGANIA FUNKCJONALNE, co robi, ogólnie po kolei, wypunktowanie </br>
+<bold>ZA TYDZIEŃ CELE BIZNESOWE OPISY</bold>
 ZA DWA ROZBUDOWANIE, WYMAGANIA FUNKCJONALNE (tabela| akcja czynność i reakcja systemu), 
   DIAGRAMY, przypadków użycia, tabele przypadków użycia, 
   tytuł funkcjonalnosci, przez kogo (aktor), opis,
