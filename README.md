@@ -1,6 +1,6 @@
 # Mniam.pl
-Projekt tworzony przez: </br>
-<b>Bartosz Kaczorowski</b> - lider </br>
+<b>Projekt tworzony przez:</b> </br>
+Bartosz Kaczorowski - lider </br>
 Klaudia Kamila Kacprzak </br>
 Michał Górski </br>
 
