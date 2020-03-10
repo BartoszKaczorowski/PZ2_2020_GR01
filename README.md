@@ -12,7 +12,7 @@ Michał Górski </br>
   tytuł funkcjonalnosci, przez kogo (aktor), opis </br>
 - <b>WYBÓR METODYKI</b> </br> (waterfall, scrum itp.) i technologie
 wymagania niefunkcjonalne(sprawdzić na necie), wydajność </br>
-- <b>WYMAGANIA SPRZĘTOWE</b> </br> niezawdoność, łatwość użytkowania, przenośność, wsparcie (lanie wody) </br>
+- <b>WYMAGANIA SPRZĘTOWE/NIEFUNKCJONALNE</b> </br> niezawdoność, łatwość użytkowania, przenośność, wsparcie (lanie wody) </br>
 - <b>TERMINARZ</b> </br> co kiedy, kiedy przedstawić, do dnia np. na tygodniowe daty </br>
 - <b>ANALIZA RYZYKA</b> </br> czynniki wewnętrzne i zewnętrzne, pomocne i szkodliwe </br>
 
