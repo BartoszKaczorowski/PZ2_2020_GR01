@@ -1,0 +1,55 @@
+CREATE TABLE m_lokale(
+    id_lokalu INT(2) AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(20),
+    ulica VARCHAR(20),
+    nr_budynku VARCHAR(10),
+    kod_pocztowy VARCHAR(6),
+    miejscowosc VARCHAR(15),
+    telefon INT(9),
+    rodzaj_kuchni INT(2) REFERENCES m_kuchnia(id_typu));
+
+CREATE TABLE m_obslugalokalu(
+    id_uzytkownika INT(2) REFERENCES m_uzytkownicy(id_uzytkownika),
+    id_lokalu INT(2) REFERENCES m_lokale(id_lokalu),
+    CONSTRAINT PRIMARY KEY m_obslugalokalu_PK (id_uzytkownika,id_lokalu));
+
+CREATE TABLE m_dania(
+    id_dania INT(2) AUTO_INCREMENT PRIMARY KEY,
+    id_lokalu INT(2) REFERENCES m_lokale(id_lokalu),
+   	rodzaj_kuchni INT(2) REFERENCES m_kuchnia(id_typu),
+    nazwa VARCHAR(15),
+    opis VARCHAR(150),
+    cena FLOAT(2));
+
+CREATE TABLE m_zamowienia(
+    id_zamowienia INT(2) AUTO_INCREMENT PRIMARY KEY,
+    id_uzytkownika INT(2) REFERENCES m_uzytkownicy(id_uzytkownika),
+    id_lokalu INT(2) REFERENCES m_lokale(id_lokalu),
+    ulica VARCHAR(20),
+    nr_budynku VARCHAR(10),
+    kod_pocztowy VARCHAR(6),
+   	miejscowosc VARCHAR(15),
+    telefon INT(9));
+
+CREATE TABLE m_szczegolyzamowienia(
+    id_zamowienia INT(2) REFERENCES m_zamowienia(id_zamowienia),
+    id_dania INT(2) REFERENCES m_dania(id_dania),
+    CONSTRAINT PRIMARY KEY m_szczegoluzamowienia_PK (id_zamowienia, id_dania),
+    ilosc INT(2));
+
+CREATE TABLE m_zamawiajacy(
+    id_uzytkownika int(2) PRIMARY KEY REFERENCES m_uzytkownicy(id_uzytkownika),
+    telefon int(9),
+    ulica varchar(20),
+    nr_budynku varchar(10),
+    kod_pocztowy varchar(6),
+    miejscowosc varchar(15));
+
+CREATE TABLE m_kuchnia(
+    id_typu int(2) PRIMARY KEY,
+    nazwa varchar(30));
+
+CREATE TABLE m_uzytkownicy(
+   id_uzytkownika int(2) PRIMARY KEY,
+   login varchar(20),
+   haslo varchar(20));
