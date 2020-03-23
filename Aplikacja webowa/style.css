@@ -408,6 +408,52 @@ div.orderFood {
     cursor: pointer;
 }
 
+/*_______________SEKCJA - KONTAKT_______________ */
+
+
+form {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+form button {
+    height: 35px;
+    /* background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%); */
+    background-color: #FACE58;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Saira',
+        sans-serif;
+    font-weight: bold;
+}
+
+@media(min-width: 1024px) {
+    form {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    form button {
+        line-height: 5px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+
 
 
 /*_______________STOPKA_______________*/
