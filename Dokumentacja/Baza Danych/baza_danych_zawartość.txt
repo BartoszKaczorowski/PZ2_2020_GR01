@@ -1,0 +1,58 @@
+//uzupełnienie tabeli m_kuchnia
+INSERT INTO m_kuchnia (id_typu, nazwa)
+VALUES (null, 'turecka');
+
+INSERT INTO m_kuchnia (id_typu, nazwa)
+VALUES (null, 'chińska');
+
+//uzupełnienie tabeli m_lokale
+INSERT INTO m_lokale(id_lokalu, nazwa, ulica, nr_budynku, kod_pocztowy, miejscowosc, telefon, rodzaj_kuchni)
+VALUES (null, 'Efes', 'Nowogrodzka', '53C', '02-262', 'Warszawa', 825353628, 2);
+
+INSERT INTO m_lokale(id_lokalu, nazwa, ulica, nr_budynku, kod_pocztowy, miejscowosc, telefon, rodzaj_kuchni)
+VALUES (null, 'Hoang Bao', 'Giełczyńska', '30', '18-400', 'Łomża', 597814677, 3);
+
+//uzupełnienie tabeli m_dania
+INSERT INTO m_dania (id_dania, id_lokalu, rodzaj_kuchni, nazwa, opis, cena)
+VALUES(null, 2, 2, 'kebab', 'doprawione mięso baranie, surówka warzywna, owczy ser, podawane w picie i z sosami', '27.50');
+
+INSERT INTO m_dania (id_dania, id_lokalu, rodzaj_kuchni, nazwa, opis, cena)
+VALUES(null, 2, 2, 'lahmacun', 'cienki placek z nadzieniem mięsno-warzywnym, skropiony cytryną', '15.90');
+
+INSERT INTO m_dania (id_dania, id_lokalu, rodzaj_kuchni, nazwa, opis, cena)
+VALUES(null, 3, 3, 'kurczak gongbao', 'kurczak z warzywami i orzeszkami na ostro, podawany z ryżem', '23.90');
+
+INSERT INTO m_dania (id_dania, id_lokalu, rodzaj_kuchni, nazwa, opis, cena)
+VALUES(null, 3, 3, 'baozi', 'kluski gotowane na parze z nadzieniem mięsnym, serwowane po 5 sztuk', '25.50');
+
+//uzupełnienie tabeli m_uzytkownicy
+INSERT INTO m_uzytkownicy (id_uzytkownika, login, haslo)
+VALUES (null, 'EfesWA', 'kebabsmaczny');
+
+INSERT INTO m_uzytkownicy (id_uzytkownika, login, haslo)
+VALUES (null, 'HoangBao', 'dobrazupa');
+
+INSERT INTO m_uzytkownicy (id_uzytkownika, login, haslo)
+VALUES (null, 'ifoxmniejniztrzy', 'abc123');
+
+//uzupełnienie tabeli m_obslugalokalu
+INSERT INTO m_obslugalokalu(id_uzytkownika, id_lokalu)
+VALUES (3,2);
+
+INSERT INTO m_obslugalokalu(id_uzytkownika, id_lokalu)
+VALUES (4,3);
+
+// uzupełnienie tabeli m_zamawiajacy
+INSERT INTO m_zamawiajacy(id_uzytkownika, telefon, ulica, nr_budynku, kod_pocztowy, miejscowosc)
+VALUES (5, 785834249, 'Dawna', '16F', '18-400', 'Łomża');
+
+//uzupełnienie tabeli m_zamowienia
+INSERT INTO m_zamowienia (id_zamowienia, id_uzytkownika, id_lokalu, ulica, nr_budynku, kod_pocztowy, miejscowosc, telefon, status)
+VALUES (null, 5, 3, 'Dawna', '16F', '18-400', 'Łomża', 785834249, 'przyjęte');
+
+//uzupełnienie tabeli m_szczegolyzamowienia
+INSERT INTO m_szczegolyzamowienia (id_zamowienia, id_dania)
+VALUES (3, 5);
+
+INSERT INTO m_szczegolyzamowienia (id_zamowienia, id_dania)
+VALUES (3, 6);
