@@ -116,6 +116,40 @@
         </div>
 
     </header>
+    
+    <!--_______________JEŻELI HASŁA PRZY REJESTRACJI NIE SĄ TAKIE SAME _______________-->
+
+        <?php
+         if (@$_GET['registered'] == 'false')
+         {
+        ?>
+        <div style="margin-top: 15px;" class=" col-md-4 col-md-offset-4"" role=" alert">
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                Hasła się nie zgadzają. <br />
+                Spróbuj ponownie.
+            </div>
+        </div>
+        <?php
+         }
+ ?>
+
+        <!--_______________JEŻELI NAZWA UŻYTKOWNIKA JUŻ ISTNIEJE_______________-->
+
+        <?php
+         if (@$_GET['Username'] == 'false')
+         {
+        ?>
+        <div style="margin-top: 15px;" class=" col-md-4 col-md-offset-4"" role=" alert">
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                Użytkownik o tej nazwie istnieje <br />
+                Wybierz inną nazwę użytkownika.
+            </div>
+        </div>
+        <?php
+         }
+ ?>
 
     <!--_______________ SEKCJA ZE ZDJĘCIEM NA STRONIE 'POWITALNEJ' _______________-->
     <section class="mainImage"></section>
