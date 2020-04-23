@@ -1,35 +1,35 @@
+<!-- OBSŁUGA LOGOWANIA -->
 <!-- pobranie danych wejściowych -->
+
 <?php 
 require_once('connection.php');
 
 session_start();
+
     if(isset($_POST['Login']))
     {
-        //jeżeli inputy od loginu i hasla puste to komunikat
-       if(empty($_POST['Username']) || empty($_POST['Password']))
-       {
-            header("location:index.php?Empty= Please Fill in the Blanks");
-       }
-       else
-       {
-            $query="select * from m_uzytkownicy where login='".$_POST['Username']."' and haslo='".$_POST['Password']."'";
+           ///pobieram dane z bazy i sprawdzam
+            $query="SELECT * FROM m_uzytkownicy where login='".$_POST['Username']."' and haslo='".$_POST['Password']."'";
+            //funkcja mysqli_query wysyła zapytanie do bazy, a jej argumentami są identyfikator połączenia oraz treść zapytania
             $result=mysqli_query($connection,$query);
  
+            //jeżeli wszystko się zgadza
             if(mysqli_fetch_assoc($result))
             {
                 $_SESSION['User']=$_POST['Username'];
-                //header("location:welcome.php");
-                 header("location:index.php?Logged=true");
+                 ?><script>window.location.href = "index.php?Logged=true";</script><?php
             }
             else
             {
-                header("location:index.php?Invalid= Please Enter Correct User Name and Password ");
+                //informacja jeśli nazwa użytkownika lub hasło są niepoprawne
+                ?><script>window.location.href = "index.php?Invalid=true";</script><?php
             }
-       }
     }
-    else
+       
+   /* else
     {
-        echo 'Not Working Now Guys';
-    }
+        echo 'Aktualnie nie popracujesz. Sprawdź przycisk logowania.';
+    }*/
+       
  
 ?>
