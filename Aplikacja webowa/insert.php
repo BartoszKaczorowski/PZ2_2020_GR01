@@ -1,13 +1,10 @@
-<!-- dodanie danych do bazy -->
+<!-- OBSŁUGA REJESTRACJI  -->
+<!-- dodanie nowego użytkownika do bazy -->
 
 <?php
 require_once('connection.php');
 
-
- 
-
 $userName = $_POST['username'];
-// $email = $_POST['email'];
 $password = $_POST['password'];
 $password2 = $_POST['confirm_password'];
 
@@ -22,7 +19,7 @@ if (mysqli_num_rows($res_u) > 0) {
         
  }
 
- //  JEŻELI OBA WPROWADZONE HASŁA SĄ TAKIE SAME TO WRZUCAMY DO BAZY, JAK NIE WYŚWIETLAM WIADOMOŚĆ
+ //  JEŻELI OBA WPROWADZONE HASŁA SĄ TAKIE SAME TO WRZUCAMY DO BAZY
  elseif($password == $password2){
 
     $sql = "INSERT INTO m_uzytkownicy (login, haslo) VALUES ('$userName','$password')";
@@ -32,12 +29,6 @@ if (mysqli_num_rows($res_u) > 0) {
          {
              ?><script>window.location.href = "index.php?registered=true";</script><?php
          }
-
-         else {
-        // failed :(
-         echo "Error :".$sql;
-        }
-
  }
  //JEŻELI HASŁA SIĘ NIE ZGADZAJĄ WYŚWIETLAM WIADOMOŚĆ
 else
