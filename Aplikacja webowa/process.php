@@ -14,10 +14,15 @@ session_start();
             $result=mysqli_query($connection,$query);
  
             //jeżeli wszystko się zgadza
-            if(mysqli_fetch_assoc($result))
+            //if(mysqli_fetch_assoc($result))
+            if (mysqli_num_rows($result) > 0)
             {
+              while($row = mysqli_fetch_array($result))
+{
+                $_SESSION['IdZalogowanegoUsera']=$row['id_uzytkownika'];
+}
                 $_SESSION['User']=$_POST['Username'];
-                 ?><script>window.location.href = "index.php?Logged=true";</script><?php
+                 ?><script>window.location.href = "index.php";</script><?php
             }
             else
             {
@@ -25,11 +30,4 @@ session_start();
                 ?><script>window.location.href = "index.php?Invalid=true";</script><?php
             }
     }
-       
-   /* else
-    {
-        echo 'Aktualnie nie popracujesz. Sprawdź przycisk logowania.';
-    }*/
-       
- 
 ?>
