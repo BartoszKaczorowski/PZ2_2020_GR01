@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media(min-width: 400px) and (orientation: portrait) {
+    div.kuchnie>button {
+        height: 300px;
+    }
+
+    div.kuchnie {
+        margin-top: 50%;
+    }
+}
