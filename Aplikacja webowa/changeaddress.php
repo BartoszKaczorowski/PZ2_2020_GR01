@@ -21,10 +21,5 @@ $zamowieniee=mysqli_query($connection,$sqla);
 $zamowienie=mysqli_query($connection,$sql);
 }
 
-//$sql = "INSERT INTO m_zamawiajacy (telefon, ulica, nr_budynku, kod_pocztowy, miejscowosc) VALUES ('$m_tel','$m_ulica','$m_nr_budynku','$m_kod_pocztowy','$m_miejscowosc')";
-
-
-
-
 ?>
 <script>window.location.href = "index.php?address=true";</script> 
