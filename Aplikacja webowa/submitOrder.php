@@ -40,25 +40,13 @@ div.box{
 }
 
 form{
-   /* height: 450px;
-    width: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    background-color: #FACE58;*/
-
     height: 500px;
     width: 50%;
     position: absolute;
     top: 30%;
     left: 25%;
     right: 25%;
-    /*transform: translate(-50%, -50%);*/
-    
     transform: scale(2);
-
 }
 
 form p{
@@ -122,9 +110,6 @@ form p{
 form button{
     margin: 3px;
 }
-
-
-
 }
 
 </style>
